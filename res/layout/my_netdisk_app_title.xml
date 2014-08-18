@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_top_title_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="48.0dip"
+    android:orientation="horizontal" >
+
+    <ViewStub
+        android:id="@+id/viewstub_mynetdisk_app_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout="@layout/my_netdisk_app_title_viewstub" />
+
+  <!--   <ViewStub
+        android:id="@id/viewstub_personalpage_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout="@layout/personal_homepage_title_bar" />
+
+    <ViewStub
+        android:id="@id/viewstub_inbox_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout="@layout/inbox_detail_title_bar" />
+
+    <ViewStub
+        android:id="@id/viewstub_search_title"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout="@layout/search_title_bar" /> -->
+
+</LinearLayout>

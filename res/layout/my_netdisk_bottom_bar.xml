@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_bottom_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tabbar_background" >
+
+    <Button
+        android:id="@+id/btn_to_download"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_download_btn"
+        android:gravity="center"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_download" />
+
+    <Button
+        android:id="@+id/btn_to_share"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_share_btn"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_share" />
+
+    <Button
+        android:id="@+id/btn_to_push"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_push_btn"
+        android:gravity="center"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_push" />
+
+    <Button
+        android:id="@+id/btn_to_delete"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_delete_btn"
+        android:gravity="center"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_delete" />
+
+    <Button
+        android:id="@+id/btn_to_rename"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_rename_btn"
+        android:gravity="center"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_rename" />
+
+    <Button
+        android:id="@+id/btn_more"
+        style="@style/NetDisk.Unified.Smaller.Blue2TabBarGray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:background="@null"
+        android:drawableTop="@drawable/edit_tools_more_btn"
+        android:gravity="center"
+        android:paddingTop="4.0dip"
+        android:text="@string/quick_action_more" />
+
+</LinearLayout>

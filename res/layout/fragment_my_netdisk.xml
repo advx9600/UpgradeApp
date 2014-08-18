@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/activity_view_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@color/color_list_background" >
+
+        <com.dafeng.upgradeapp.ui.widget.ListViewEx
+            android:id="@+id/listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/color_list_background"
+            android:cacheColorHint="@color/white"
+            android:divider="@drawable/mainlist_divider"
+            android:drawSelectorOnTop="false"
+            android:fadingEdge="none"
+            android:fastScrollEnabled="true" />
+
+        <!-- <include layout="@layout/tips_layout" /> -->
+
+        <ScrollView
+            android:id="@+id/empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fillViewport="true"
+            android:visibility="gone" >
+
+            <!-- <com.baidu.netdisk.ui.widget.EmptyView
+                xmlns:netdisk="http://schemas.android.com/apk/res/com.baidu.netdisk"
+                android:id="@+id/empty_view"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:background="@color/activity_view_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingTop="40.0dip"
+                android:visibility="gone"
+                netdisk:empty_image="@drawable/empty_no_data"
+                netdisk:empty_text="@string/transfer_list_empty" /> -->
+        </ScrollView>
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/bottom_view_stub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:contentDescription="@null"
+        android:id="@+id/bottom_empty_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tabbar_background"
+        android:visibility="gone" />
+
+</LinearLayout>
